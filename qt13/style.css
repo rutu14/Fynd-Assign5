@@ -1,0 +1,125 @@
+body{
+    margin:0;
+}
+
+nav{
+    background-color: rgb(40, 116, 240);
+    top: 0; 
+    position: fixed;
+    width: 100%;
+}
+
+.navigation-menu{
+    margin: 5px 100px;
+   
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu-item{
+    position: relative;
+}
+
+.logo-box{
+    margin-right: 60px;
+}
+
+.logo-box a{
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}
+.logo{
+    margin-top: 5px;
+    height: 20px;
+}
+
+.logo-subtext{
+    display: block;
+    font-size: 0.9em;
+}
+.logo-subtext span{
+    color: gold;
+}
+.search-box{
+    height: 30px;
+    width: 500px;
+    border: none;
+    box-shadow: 1px 2px 2px lightgray;
+    margin-right: 20px;
+    border-radius: 2px;
+}
+
+
+.login-btn{
+    height: 30px;
+    padding: 0 35px;
+    color: rgb(40, 116, 240);
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 2px 2px lightgray;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.more-btn{
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.cart-btn{
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.down-arrow{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.cart{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    font-size: 14px;
+}
+  
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-icon{
+    margin: 0 10px 0 0;
+    color: rgb(40, 116, 240);
+}
